@@ -12,7 +12,7 @@ The purpose is to create a model that is able to classify images of dogs and wol
 #Scope
 The research dataset was obtained through Kaggle which can be accessed at the link https://www.kaggle.com/datasets/harishvutukuri/dogs-vs-wolves. The data was processed by downloading and then saving it using Google Drive media. The data amounted to 2000 images which were divided into two subfolders, namely dogs and wolves, each of which amounted to 1000. The data on Google Drive is then connected to Google Colab for preprocessing. Furthermore, the data is divided into training and test with a ratio of 80:20 for the training and testing process. Training data will be trained on the model then test data is used for model validation which from both data will be obtained accuracy to find out how well the model classifies dog and wolf images.
 
-![image](https://github.com/user-attachments/assets/b2214060-5d4e-48ff-afc8-d757bfef3209)
+<img src="https://github.com/user-attachments/assets/b2214060-5d4e-48ff-afc8-d757bfef3209" width="600" height="500">
 
 
 # Deep Learning Model
@@ -24,7 +24,8 @@ Traditional CNN models have shortcomings in the field of pattern recognition, es
 # Conlusion and Suggestions
 The training was done using 2 x 10 epoch and patience of early stopping to 5, the fine-tuning managed to get an overall accuracy of 73%. The confusion matrix shows that the model can classify wolves better than dogs with 82 images of dogs falsely predicted as wolves.
 
-![image](https://github.com/user-attachments/assets/e2c5839d-2d68-4a14-892b-8fa41ef9d755)
+<p align="center" width="100%">
+    <img width="33%" src="https://github.com/user-attachments/assets/e2c5839d-2d68-4a14-892b-8fa41ef9d755">
 
 Classification in dog and wolf images has shortcomings in limited datasets and more diverse data is needed to increase the accuracy of the model. Data limitations are prone to model overfitting which has been slowed down by applying augmentation and regularization to enlarge the dataset, it is hoped that new data can be obtained so that it can help the model in the learning process to perform classification with a higher level of accuracy.
 
